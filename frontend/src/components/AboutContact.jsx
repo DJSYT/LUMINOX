@@ -248,6 +248,8 @@ function Footer() {
   );
 }
 
+export { AboutSection, ContactSection, Footer };
+
 export default function AboutContact() {
   return (
     <>

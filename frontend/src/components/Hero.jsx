@@ -60,8 +60,8 @@ export default function Hero() {
 
         {/* Main Headline */}
         <h1
-          className="text-7xl sm:text-8xl md:text-9xl font-black tracking-tighter text-slate-900 leading-none mb-6"
-          style={{ fontFamily: "'Inter', sans-serif" }}
+          className="text-8xl sm:text-9xl font-semibold tracking-tight text-slate-900 leading-none mb-6"
+          style={{ fontFamily: "'Cormorant Garamond', Georgia, serif", letterSpacing: "-0.02em" }}
         >
           Luminux
         </h1>

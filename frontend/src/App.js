@@ -3,7 +3,7 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import ProjectShowcase from "./components/ProjectShowcase";
-import AboutContact from "./components/AboutContact";
+import { AboutSection, ContactSection, Footer } from "./components/AboutContact";
 
 function App() {
   return (
@@ -11,9 +11,11 @@ function App() {
       <Navbar />
       <main>
         <Hero />
-        <AboutContact />
+        <AboutSection />
         <ProjectShowcase />
+        <ContactSection />
       </main>
+      <Footer />
     </div>
   );
 }

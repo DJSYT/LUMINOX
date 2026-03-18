@@ -185,7 +185,7 @@ function ContactSection() {
           </div>
 
           {/* Social Links */}
-          <div className="flex items-center justify-center gap-4 flex-wrap">
+          <div className="flex items-center justify-center gap-3 flex-wrap">
             <a
               href={CONTACT_DATA.instagram}
               target="_blank"
@@ -193,7 +193,16 @@ function ContactSection() {
               className="flex items-center gap-2 px-5 py-3 rounded-2xl bg-sky-50/80 border border-sky-100 text-slate-700 text-sm font-medium hover:bg-sky-100/70 transition-colors duration-200"
             >
               <Instagram size={16} className="text-sky-500" />
-              Instagram
+              luminux.fx
+            </a>
+            <a
+              href={CONTACT_DATA.instagramWife}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 px-5 py-3 rounded-2xl bg-pink-50/80 border border-pink-100 text-slate-700 text-sm font-medium hover:bg-pink-100/70 transition-colors duration-200"
+            >
+              <Instagram size={16} className="text-pink-400" />
+              auriona.fx
             </a>
             <a
               href={CONTACT_DATA.telegram}
@@ -245,6 +254,7 @@ function Footer() {
             <a
               href={`mailto:${CONTACT_DATA.email}`}
               className="text-slate-500 hover:text-sky-400 transition-colors duration-200"
+              title="Email"
             >
               <Mail size={15} />
             </a>
@@ -253,6 +263,16 @@ function Footer() {
               target="_blank"
               rel="noopener noreferrer"
               className="text-slate-500 hover:text-sky-400 transition-colors duration-200"
+              title="luminux.fx"
+            >
+              <Instagram size={15} />
+            </a>
+            <a
+              href={CONTACT_DATA.instagramWife}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-slate-500 hover:text-pink-400 transition-colors duration-200"
+              title="auriona.fx"
             >
               <Instagram size={15} />
             </a>
@@ -261,6 +281,7 @@ function Footer() {
               target="_blank"
               rel="noopener noreferrer"
               className="text-slate-500 hover:text-sky-400 transition-colors duration-200"
+              title="Telegram"
             >
               <Send size={15} />
             </a>

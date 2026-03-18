@@ -84,7 +84,9 @@ export const CONTACT_DATA = {
   subline: "Open for collaborations, projects & creative work.",
   email: "luminoxdesignstudio@gmail.com",
   telegram: "https://t.me/aurionafx",
-  instagram: "https://www.instagram.com/luminux.fx"
+  instagram: "https://www.instagram.com/luminux.fx",
+  discord: "djs_yt",
+  discordUrl: "https://discord.com/users/djs_yt"
 };
 
 export const NAV_LINKS = [

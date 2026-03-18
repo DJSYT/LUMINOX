@@ -1,0 +1,5 @@
+.luminux-app {
+    min-height: 100vh;
+    background: #ffffff;
+    overflow-x: clip;
+}

@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luminux.fx Design Stuido</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="particles-container" id="particles"></div>
+
+        <div class="banner">
+        <div class="shape-shifter" style="width: 30vw; height: 30vw; top: 10%; left: 10%;"></div>
+        <div class="shape-shifter" style="width: 20vw; height: 20vw; bottom: 20%; right: 15%; animation-delay: -5s;"></div>
+        <div class="shape-shifter" style="width: 40vw; height: 40vw; top: -10%; right: -10%; animation-delay: -10s; opacity: 0.1;"></div>
+
+        <div class="banner-overlay">
+            
+            <div class="banner-profile">
+                <img src="logobgrd.png" alt="Luminux Profile" class="banner-img">
+            </div>
+
+            <h1 class="main-title">Luminux.fx</h1>
+            <p class="subtitle">Digitally Creative & Technically Specialist</p>
+        </div>
+    </div>
+
+
+        <nav class="navigation">
+        <div class="nav-logo">
+            <img src="logobgrd.png" alt="Mahman108 Logo" class="logo-img"> 
+            <span class="logo-text">Luminux.fx</span>
+        </div>
+
+        <div class="nav-links">
+            <button class="nav-button active" onclick="showSection('menu')" data-section="menu">
+                <i class="fas fa-home"></i>
+                <span>Home</span>
+            </button>
+            <button class="nav-button" onclick="showSection('portfolio')" data-section="portfolio">
+                <i class="fas fa-briefcase"></i>
+                <span>Portfolio</span>
+            </button>
+            <button class="nav-button" onclick="showSection('projects')" data-section="projects">
+                <i class="fas fa-layer-group"></i>
+                <span>Projects</span>
+            </button>
+            <button class="nav-button" onclick="showSection('contact')" data-section="contact">
+                <i class="fas fa-envelope"></i>
+                <span>Contact</span>
+            </button>
+            <button class="nav-button" onclick="showSection('comments')" data-section="comments">
+                <i class="fas fa-comment-dots"></i>
+                <span>Comments</span>
+            </button>
+        </div>
+        
+    </nav>
+
+
+    <section id="menu" class="content-section visible">
+        <div class="container">
+                  <div class="reel-section">
+            <h3 class="reel-title">Latest Creative Reel</h3>
+            
+            <div class="reel-container">
+                <div class="reel-track">
+                    <div class="reel-card"><img src="banner.png" alt="Design 1"></div>
+                    <div class="reel-card"><img src="logo.png" alt="Design 2"></div>
+                    <div class="reel-card"><img src="img1.jpg" alt="Design 3"></div>
+                    <div class="reel-card"><img src="img2.jpg" alt="Design 4"></div>
+                    <div class="reel-card"><img src="img3.jpg" alt="Design 5"></div>
+                    <div class="reel-card"><img src="img4.jpg" alt="Design 6"></div>
+                    
+                    <div class="reel-card"><img src="banner.jpg" alt="Design 1"></div>
+                    <div class="reel-card"><img src="logo.png" alt="Design 2"></div>
+                    <div class="reel-card"><img src="img1.jpg" alt="Design 3"></div>
+                    <div class="reel-card"><img src="img2.jpg" alt="Design 4"></div>
+                    <div class="reel-card"><img src="img3.jpg" alt="Design 5"></div>
+                    <div class="reel-card"><img src="img4.jpg" alt="Design 6"></div>
+                </div>
+            </div>
+        </div>
+
+            <div class="profile-card">
+                <div class="profile-image-container">
+                    <img src="logobgrd.png" alt="Profile Picture" class="profile-image">
+                    <div class="profile-glow"></div>
+                </div>
+                <div class="profile-info">
+                    <h2>Welcome to My Digital Realm</h2>
+                    <p class="profile-description">
+                        I'm a multifaceted digital creative specializing in voice modulation, 
+                        creative writing, stylized art, content strategy, and AI prompt engineering. 
+                        Explore my portfolio to discover the intersection of creativity and technology.
+                    </p>
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <div class="stat-number">5</div>
+                            <div class="stat-label">Core Skills</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">∞</div>
+                            <div class="stat-label">Creativity</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">10/10</div>
+                            <div class="stat-label">Availability</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="content-section">
+        <div class="container">
+            <h2 class="section-title">Skills Showcase</h2>
+            <div class="skills-grid">
+                <div class="skill-card" onclick="toggleDetails(this)" data-skill="voice">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="skill-icon">
+                                <i class="fas fa-microphone"></i>
+                            </div>
+                            <h3>Audio Editing</h3>
+                            <p class="skill-brief">Editing audio e.g.voiceovers, Songs</p>
+                        </div>
+                        <div class="card-back">
+                            <h3>Audio Editing</h3>
+                            <p>I can edit your audio files e.g. voiceovers, prodecasts, music and more.</p>
+                            <div class="skill-tags">
+                                <span class="tag">voiceover</span>
+                                <span class="tag">Noic removeing</span>
+                                <span class="tag">Song</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-card" onclick="toggleDetails(this)" data-skill="writing">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="skill-icon">
+                                <i class="fas fa-pen-fancy"></i>
+                            </div>
+                            <h3>Creative Writing</h3>
+                            <p class="skill-brief">Storytelling and content creation</p>
+                        </div>
+                        <div class="card-back">
+                            <h3>Creative Writing</h3>
+                            <p>I write blogs, custom stories and can improvise any narrative based on your idea or mood. From technical documentation to creative fiction.</p>
+                            <div class="skill-tags">
+                                <span class="tag">Blogs</span>
+                                <span class="tag">Storytelling</span>
+                                <span class="tag">Content Strategy</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-card" onclick="toggleDetails(this)" data-skill="art">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="skill-icon">
+                                <i class="fas fa-palette"></i>
+                            </div>
+                            <h3>Graphic Designing</h3>
+                            <p class="skill-brief">Digital art and design</p>
+                        </div>
+                        <div class="card-back">
+                            <h3>Graphic Designing</h3>
+                            <p>I will make your creative ideas true into a digital graphical Art!</p>
+                            <div class="skill-tags">
+                                <span class="tag">Digital Art</span>
+                                <span class="tag">Graphics</span>
+                                <span class="tag">Proffesional</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-card" onclick="toggleDetails(this)" data-skill="strategy">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="skill-icon">
+                                <i class="fas fa-bullhorn"></i>
+                            </div>
+                            <h3>Content Strategy</h3>
+                            <p class="skill-brief">Marketing and social media</p>
+                        </div>
+                        <div class="card-back">
+                            <h3>Content Strategy</h3>
+                            <p>Expertise in crafting catchy captions, detailed product descriptions, and YouTube titles. Data-driven approach to content optimization.</p>
+                            <div class="skill-tags">
+                                <span class="tag">Social Media</span>
+                                <span class="tag">SEO Writing</span>
+                                <span class="tag">Marketing Copy</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-card" onclick="toggleDetails(this)" data-skill="ai">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="skill-icon">
+                                <i class="fas fa-robot"></i>
+                            </div>
+                            <h3>Prompt Engineering</h3>
+                            <p class="skill-brief">AI optimization specialist</p>
+                        </div>
+                        <div class="card-back">
+                            <h3>Prompt Engineering</h3>
+                            <p>Specialized in writing AI prompts tailored to creative, technical, and strategic applications. Maximizing AI output quality and relevance.</p>
+                            <div class="skill-tags">
+                                <span class="tag">AI Prompts</span>
+                                <span class="tag">Optimization</span>
+                                <span class="tag">Technical Writing</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="content-section">
+        <div class="container">
+            <h2 class="section-title">Projects Showcase</h2>
+            <div class="media-showcase-grid">
+<div class="project-card">
+    
+    <div class="video-container">
+        <video controls poster="PM.png">
+            <source src="PMV.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    
+    <div class="project-info-wrapper">
+        <div class="project-header-row">
+            <h3>Mere Samne Wali Khidki Me</h3>
+            <span class="status-badge soon">Coming Soon</span>
+        </div>
+        
+        <p class="project-intro">
+            Bridging two entirely different artistic worlds, this upcoming project takes the iconic 1968 classic and gives it a highly stylized, neon-tinted visual overhaul.
+        </p>
+
+        <ul class="project-specs">
+            <li><strong>🎵 Audio Profile:</strong> Mere Samne Wali Khidki Mein (Kishore Kumar — Lofi Mix)</li>
+            <li><strong>🎬 Visual Schema:</strong> The Fragrant Flower Blooms with Dignity (薫る花は凛と咲く)</li>
+            <li><strong>⚡ Techniques:</strong> Frame interpolation, custom color grading, kinetic typography, and fluid transition mapping.</li>
+        </ul>
+
+        <div class="card-tags">
+            <span class="tag">#AMV</span>
+            <span class="tag">#BollywoodEdit</span>
+            <span class="tag">#AnimeEdit</span>
+            <span class="tag">#MotionDesign</span>
+        </div>
+    </div>
+</div>
+
+                <div class="media-card card-photo">
+                    <div class="media-preview-wrapper zoom-effect">
+                    
+                        <img src="banner.jpg" alt="Stylized Eyework Vector Artwork" class="media-element photo-element">
+                    </div>
+                    <div class="media-card-info">
+                        <span class="media-tag photo-tag"><i class="fas fa-camera"></i> Graphic &amp; Illustration</span>
+                        <h3>Vector Eye Design Schema</h3>
+                        <p>Detailed design mapping breaking down vector elements: eyelashes, pupil highlights, and custom iris shading layers.</p>
+                    </div>
+                </div>
+
+                <div class="media-card card-audio">
+                    <div class="media-preview-wrapper audio-track-visualizer">
+                        <div class="audio-waves">
+                            <span class="wave-bar"></span>
+                            <span class="wave-bar"></span>
+                            <span class="wave-bar"></span>
+                            <span class="wave-bar"></span>
+                            <span class="wave-bar"></span>
+                        </div>
+                    </div>
+                    <div class="media-card-info">
+                        <span class="media-tag audio-tag"><i class="fas fa-microphone"></i> Voice &amp; Modulation</span>
+                        <h3>Character Modulation Sample</h3>
+                        <p>A multi-pitch vocal recording showcasing fantasy sound mimicry, voiceovers, and tailored ambient soundscapes.</p>
+                        
+                        <div class="audio-player-container">
+                            <audio class="media-element audio-element" controls>
+                                <source src="DJS.mp3" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="contact" class="content-section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-card">
+                    <div class="contact-header">
+                        <div class="contact-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <h3>Let's Connect</h3>
+                        <p>Ready to bring your ideas to life? Reach out through any of these channels.</p>
+                    </div>
+                    
+                    <div class="contact-methods">
+                        <a href="mailto:luminoxdesignstudio@gmail.com" class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="method-info">
+                                <span class="method-label">Email</span>
+                                <span class="method-value">luminoxdesignstudio@gmail.com</span>
+                            </div>
+                        </a>
+                        
+                        <a href="https://github.com/DJSYT" target="_blank" class="contact-method">
+                            <div class="method-icon">
+                                <i class="fab fa-github"></i>
+                            </div>
+                            <div class="method-info">
+                                <span class="method-label">GitHub</span>
+                                <span class="method-value">github.com/DJSYT</span>
+                            </div>
+                        </a>
+                        
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fab fa-discord"></i>
+                            </div>
+                            <div class="method-info">
+                                <span class="method-label">Discord</span>
+                                <span class="method-value">djs_yt</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="comments" class="content-section">
+        <div class="container">
+            <h2 class="section-title">Messages & Feedback</h2>
+            
+            <div class="comment-form-container">
+                <div class="comment-form">
+                    <h3>Leave a Message</h3>
+                    <div class="form-group">
+                        <input type="text" id="user" placeholder="Your Name" class="form-input">
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" placeholder="Share your thoughts..." class="form-textarea"></textarea>
+                    </div>
+                    <button onclick="submitComment()" class="submit-btn">
+                        <i class="fas fa-paper-plane"></i>
+                        Send Message
+                    </button>
+                </div>
+            </div>
+            
+            <div class="comments-display">
+                <div class="comments-section">
+                    <h3><i class="fas fa-clock"></i> Recent Messages</h3>
+                    <div id="recent-comments" class="comments-list"></div>
+                </div>
+                
+                <div class="comments-section">
+                    <h3><i class="fas fa-fire"></i> Top Messages</h3>
+                    <div id="top-comments" class="comments-list"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -62,10 +62,8 @@ The focus is on:
 LUMINOX is developed and maintained by **Elite X Management**, a small but dedicated creative team:
 
 - **Alone4Sure** — Team Lead / Core Developer  
-- **DJS** — Bot & Web Developer / Creative Direction  
-- **Terminal$oul** — Web Developer  
-- **Anmol** — Manager  
-
+- **DJS** — Bot & Web Developer / Creative Direction
+- 
 Each member contributes uniquely to the growth and stability of the brand.
 
 ---

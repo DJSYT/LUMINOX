@@ -2,7 +2,7 @@
 
 Welcome to the official **LUMINOX** repository.
 
-LUMINOX is a creative digital brand focused on **cinematic edits, modern web experiences, and visually expressive digital products**. This repository contains the source code and structure behind the official LUMINOX team website, representing our identity, vision, and creative direction.
+LUMINOX is a creative digital brand build by **Debasis** focused on **cinematic edits, modern web experiences, and visually expressive digital products**. This repository contains the source code and structure behind the official LUMINOX team website, representing our identity, vision, and creative direction.
 
 🌐 Live Website:  
 https://team.luminoxdesignstudio.workers.dev/
